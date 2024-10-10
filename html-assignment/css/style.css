@@ -1,0 +1,41 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+      
+  }
+
+  header,footer{
+    background-color: rgb(15, 220, 15);
+  }
+.site-title{
+    color: rgb(201, 5, 5);
+}
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+
+}
+
+ul {
+    list-style: square;
+  }
+
+  ul:not(.nav-bar) li:nth-child(odd){
+    background-color: bisque;
+  }
+  .nav-bar{
+    list-style: none;
+  }
+ .nav-bar a{
+    background-color:yellow;
+    text-decoration: none;
+    border:black 1px solid;
+   
+  }
+ .nav-bar a:hover{
+    background-color: white;
+    border:black 1px solid;
+    color: black;
+ }
+
+
+ 
