@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+</head>
+<body>
+    <header>
+        <h1>Week 4</h1>
+    </header>
+    <main>
+        <h2>Image tag example</h2>
+        <!--If image is decorative keep the alt tag empty alt=""-->
+        <img src="images/coffee-shop.jpg" alt="coffee cup with coffee beans" width="500">
+        <img src="images/coffee-shop.jpg" title="coffee cup with coffee beans" width="500">
+        <!-- learning about a tag -->
+        <h2>Link tag example</h2>
+        <p>Here is a link to visit <a href="https://www.google.com" target="_blank">Google Homepage</a>.</p>
+
+        <a href="./thanks.html">Thank you page</a>
+        <p><a href="#cakes">Jump to cake menu</a></p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ratione omnis corrupti laborum consequuntur tenetur voluptas tempore, voluptatibus, autem deleniti dolor nisi nemo in, praesentium at magni ab. Incidunt, voluptatibus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta exercitationem porro facere officiis ipsum ratione harum, error a iusto repudiandae. Odio maiores veniam eum molestiae temporibus harum, commodi saepe tempore.</p>
+        <ul id="cakes">
+            <li>Red Velvet</li>
+            <li>Tiramisu</li>
+        </ul>
+        <!-- Table in HTML-->
+         <h2>Simple HTML Table</h2>
+         <table border="1">
+            <caption> Student Grades</caption>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Course Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Smith</td>
+                    <td>Web Dev 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel</td>
+                    <td>Web Dev 2</td>
+                    <td>A+</td>
+                </tr>
+            </tbody>
+         </table>
+         <table border="1">
+            <caption>Student Grades</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="2">Scores</th>
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+         </table>
+         <table border="1">
+            <caption>Callendar</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Week Day</th>
+                    <th colspan="2">Month</th>
+                </tr>
+                <tr>
+                    <th>Mon</th>
+                    <th>Wed</th>
+                    <th>Jan</th>
+                    <th>May</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+         </table>
+         <!--form elements-->
+         <h2>Form Elements</h2>
+         <form action="./thanks.html" method="get">
+            <label for="fullname">Name</label>
+            <input id="fullname" type="text" name="quantity" min="0" max="30" step="2">
+
+            <label for="userEmail">Email</label>
+            <input id="userEmail" type="email" name="email">
+            
+            <label for=""rock>Choose your Rock:</label>
+            <select id="rock" name="rock">
+                <option value="mars">Mars</option>
+                <option value="human">Earth</option>
+                <option value="venus">Venus</option>
+            </select>
+
+            <form action="thanks.html" method="post">
+                <label for="little">0-1</label>
+                <input type="radio" id="little" name="musictime" value="0-1">
+                <label for="some">2-3</label>
+                <input type="radio" id="some" name="musictime" value="2-3" checked>
+                <label for="alot">4-5</label>
+                <input type="radio" id="alot" name="musictime" value="4-5">
+              </form>
+
+             
+            <button type="submit">Send</button>
+            </form>
+    </main>
+</body>
+</html>

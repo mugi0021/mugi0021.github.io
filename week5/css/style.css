@@ -1,0 +1,54 @@
+header{
+    background-color: aqua;
+    padding:1rem;
+    margin:2rem;
+}
+h1{
+    color:red;
+}
+/* this is a demo comment */
+/* target h1, h2 and h3 */
+h1,h2,h3{
+    /* border:1px solid darkcyan; */
+    text-decoration:underline;
+}
+p{
+    font-weight: 600;
+}
+/* target para within a div */
+div p{
+    font-weight: 200;
+}
+#text{
+    background-color: aqua;
+}
+/* when targeting a class we need. */
+.highlight{
+    background-color: gold;
+}
+.goals{
+    color:rgb(218, 10, 51)
+
+}
+/* when targeting an id */
+#explain{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+li:nth-child(even){
+    background-color: deepskyblue;
+}
+li:nth-child(odd){
+    background-color: bisque;
+}
+li:nth-child(3){
+    background-color: darksalmon;
+}
+a{
+    font-size: 20px;
+}
+a[href="https.//algonquincollege.com"]{
+    font-size: 30px;
+}

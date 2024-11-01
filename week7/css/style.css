@@ -1,0 +1,41 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    visibility: hidden ;
+    width: 300px;
+}
+
+.container{
+    width: 500px;
+    margin: 0;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+img{
+    width: 200px;
+    float: right;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+.one{
+    width: 200px;
+    float: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    clear: right;
+}
+.two{
+    width: 200px;
+    float: right;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    clear: right;
+}
+main

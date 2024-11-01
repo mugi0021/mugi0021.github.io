@@ -1,0 +1,39 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> */
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+li{
+    /* px,rem or em */
+    font-size: 1.2rem;
+}
+html{
+    font-size: 16px;
+
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+h1{
+    text-transform: uppercase;
+}
+header{
+    background-color: #333;
+    color: aliceblue;
+    padding: 5rem;
+    background-image: url("../images/bread.jpg");
+    background-position: 20px 40px;
+}
+ul{
+    font-size: 10px
+}
